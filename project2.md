@@ -5,4 +5,4 @@
 | Quinn | grade |
 | Sasa | grade |
 | Mingkwan | grade |
-| Monty | pts |
+| Monty | 16 |
