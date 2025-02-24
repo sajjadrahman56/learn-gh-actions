@@ -15,3 +15,5 @@ jobs:
 
       - name: Say Hello
         run: echo "Hello, world!"
+      - name: Say Goodbye
+        run: echo "Goodbye, world!"
