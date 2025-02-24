@@ -17,3 +17,14 @@ jobs:
         run: echo "Hello, world!"
       - name: Say Goodbye
         run: echo "Goodbye, world!"
+
+  good-bye-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Say Goodbye
+        run: echo "Goodbye, world!"
+  
