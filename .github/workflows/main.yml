@@ -24,7 +24,17 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
+
       - name: Say Goodbye
         run: echo "Goodbye, world!"
+  good-night:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Good Night 
+        run: echo "Goodbye, world!"
+  
   
