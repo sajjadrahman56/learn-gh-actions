@@ -1,4 +1,4 @@
-name: First Workflow
+name: Manual Workflow
 
 on:
     workflow_dispatch:
