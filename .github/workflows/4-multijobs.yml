@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: first steps
         run: |
-          echo"ami first step from multijobs one"
+          echo "ami first step from multijobs one"
 
   second-multi-jobs:
     runs-on: ubuntu-latest
@@ -20,4 +20,4 @@ jobs:
     steps:
       - name: second steps
         run: |
-          echo"ami second step from multijobs one"
+          echo "ami second step from multijobs one"
