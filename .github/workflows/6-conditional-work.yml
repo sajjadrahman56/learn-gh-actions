@@ -1,0 +1,14 @@
+name: conditional workflow 
+
+on:
+  push:
+    paths:
+      - "backend/**"
+
+jobs:
+  conditional-workflows:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: build backend image
+        run : echo "bacnkend images"
