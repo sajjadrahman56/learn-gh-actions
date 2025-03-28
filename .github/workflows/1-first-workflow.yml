@@ -1,6 +1,10 @@
 name: First Workflow
 
-on: [push]
+# on: [push] --- run for all the push events so we have to modify it to run for specific branch or tag
+on: 
+  push:
+    branches:
+      - main
 
 jobs:
   first-workflow:
@@ -12,4 +16,8 @@ jobs:
           echo "this is first step"
           echo "Hello GH actions"
           echo "Do or Die"
+          
+      - name : Second Step
+        run : |
+          echo "yeah I am oon the second step"
 
