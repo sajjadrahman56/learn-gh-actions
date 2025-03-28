@@ -2,9 +2,10 @@ name: First Workflow
 
 # on: [push] --- run for all the push events so we have to modify it to run for specific branch or tag
 on: 
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   first-workflow:
